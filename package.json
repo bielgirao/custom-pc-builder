@@ -1,0 +1,34 @@
+{
+  "name": "pc-config-builder",
+  "version": "1.0.0",
+  "description": "Project to study OOP, SOLID, Builder & Factory design patterns",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "test-fast": "jest --no-coverage",
+    "dev": "tsx src/index.ts"
+  },
+  "author": "Gabriel Girao",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "@types/uuid": "^10.0.0",
+    "babel-jest": "^30.0.4",
+    "create-jest": "^30.0.4",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  }
+}
