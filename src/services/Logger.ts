@@ -1,6 +1,6 @@
 import chalk, { ChalkInstance } from "chalk";
 
-type LogLevel = 'success' | 'error' | 'info';
+type LogLevel = 'success' | 'error' | 'info' | 'body' | 'heading';
 
 const ICONS: Record<LogLevel, string> = {
   success: '✔ →',
